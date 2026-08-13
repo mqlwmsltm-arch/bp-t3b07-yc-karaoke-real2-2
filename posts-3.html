@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (3/3) · t3b07-yc-karaoke-real2-2</title>
+  <meta name="description" content="t3b07-yc-karaoke-real2-2에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://yeomchang-song-room.mapo-room-guide.xyz/posts-3.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ --bg-body: #0a0a0a;
+ --bg-card: #141414;
+ --text-main: #f2f2f7;
+ --text-muted: #86868b;
+ --accent-gold: #d4af37;
+ --accent-gold-hover: #b59026;
+ --border-color: #2c2c2e;
+ 
+ /* Typography */
+ --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+ --h1-font-size: 3rem;
+ --h2-font-size: 2.25rem;
+ --body-line-height: 1.6;
+ }
+
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+ body {
+ background-color: var(--bg-body);
+ color: var(--text-main);
+ font-family: var(--font-family-base);
+ line-height: var(--body-line-height);
+ -webkit-font-smoothing: antialiased;
+ overflow-x: hidden;
+ }
+
+ /* Container */
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+
+ /* Header / Nav System (Hamburger Pattern) */
+ header {
+ background-color: rgba(10, 10, 10, 0.9);
+ backdrop-filter: blur(20px);
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ border-bottom: 1px solid var(--border-color);
+ }
+
+ .nav-wrapper {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 80px;
+ }
+
+ /* Hamburger Menu Icon */
+ .hamburger-icon {
+ width: 40px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ background: none;
+ border: none;
+ }
+
+ .hamburger-lines {
+ display: flex;
+ flex-direction: column;
+ gap: 6px;
+ }
+
+ .line {
+ width: 30px;
+ height: 2px;
+ background-color: var(--text-main);
+ transition: all 0.3s ease;
+ }
+
+ /* Nav Links */
+ nav ul {
+ display: flex;
+ gap: 40px;
+ list-style: none;
+ }
+
+ nav a {
+ text-decoration: none;
+ color: var(--text-main);
+ font-size: 1rem;
+ font-weight: 500;
+ transition: color 0.2s ease;
+ position: relative;
+ }
+
+ nav a:hover, nav a.active {
+ color: var(--accent-gold);
+ }
+
+ /* Hero Section */
+ .hero-section {
+ padding: 120px 0 80px;
+ text-align: center;
+ }
+
+ h1.hero-title {
+ font-size: var(--h1-font-size);
+ line-height: 1.2;
+ margin-bottom: 24px;
+ letter-spacing: -1px;
+ background: linear-gradient(90deg, #fff, var(--accent-gold));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ }
+
+ .hero-subtitle {
+ color: var(--text-muted);
+ font-size: 1.25rem;
+ max-width: 700px;
+ margin: 0 auto;
+ }
+
+ /* Content Sections */
+ .section-padding {
+ padding: 80px 0;
+ }
+
+ h2.section-title {
+ font-size: var(--h2-font-size);
+ color: var(--accent-gold);
+ margin-bottom: 48px;
+ position: relative;
+ display: inline-block;
+ }
+ 
+ /* Decorative underline for H2 */
+ h2.section-title::after {
+ content: '';
+ position: absolute;
+ bottom: -10px;
+ left: 0;
+ width: 60px;
+ height: 3px;
+ background-color: var(--text-main);
+ }
+
+ .content-block p {
+ margin-bottom: 24px;
+ font-size: 1.1rem;
+ color: #d1d1d6;
+ }
+
+ /* Grid Layouts */
+ .grid-3 {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 24px;
+ margin-top: 48px;
+ }
+
+ /* Cards */
+ .card {
+ background-color: var(--bg-card);
+ border: 1px solid var(--border-color);
+ padding: 32px;
+ border-radius: 16px;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (3/3) · t3b07-yc-karaoke-real2-2">
+  <meta property="og:description" content="t3b07-yc-karaoke-real2-2에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://yeomchang-song-room.mapo-room-guide.xyz/posts-3.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container nav-wrapper">
+ <div class="logo">
+ <a href="/" style="color: var(--accent-gold); font-size: 1.5rem; font-weight: bold; text-decoration: none;">브로 리뷰</a>
+ </div>
+ <nav>
+ <ul>
+ <li><a href="#" class="active">블로그</a></li>
+ <li><a href="#">가라오케</a></li>
+ <li><a href="#">이벤트</a></li>
+ <li><a href="#">문의</a></li>
+ </ul>
+ </nav>
+ <button class="hamburger-icon" aria-label="메뉴 열기">
+ <div class="hamburger-lines">
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ </div>
+ </button>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 46개 · 3/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-003-evimh6.html">염창 가라오케 찐후기</a>
+        <p class="post-item__summary">염창 지역에서 가라오케를 처음 방문하는 이용객이 알아두면 좋은 기본 정보를 안내합니다. 예약 방법부터 입장 절차까지 순서대로 정리되어 있어 당황하지 않고 이용할 수 있습니다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-003-s088mp.html">염창 가라오케 VIP 룸 예약보다 더 꼼꼼히 보는 게 있었지, Asics Kayano 14 OG 인솔 로고 리스탁 디테일</a>
+        <p class="post-item__summary">Asics,Gel-Kayano-14,OIvory-Colorway,Insole-Logo-Detail,Closer-Look,Sneaker-Unboxing,Macro-Photography,Limited-</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-001-1upk2kn.html">염창 가라오케 찐후기</a>
+        <p class="post-item__summary">염창동 주변에서 가라오케 방문을 고민하시는 분들을 위해 다양한 후기와 특징을 정리하여 안내해 드립니다. 염창 지역의 가라오케는 편안한 분위기와 깔끔한 음향 시설을 갖추고 있어 소규모 모임이나 직장 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-002-1bk2qms.html">염창 가라오케 찐후기에서 본 나이키 SB Dunk 레트로의 숨겨진 진위 코드</a>
+        <p class="post-item__summary">한 줄기 스티치가 틀린 샌드럴도 300 만원 손해보는 게 뻔한데, 그걸 발견할 때 나는 이미 염창 가라오케 찐후기를 위해 머리를 식히려 차려 앉아 있었다. 판매 후 정산 시간이 늦어지</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-002-5f11qp.html">Created Title</a>
+        <p class="post-item__summary">예약 전화를 걸기 전에 어떤 정보를 미리 정리해두면 좋을지 막막하게 느껴질 수 있다. 아래는 염창에서 가라오케를 예약하기 전에 준비해두면 도움이 되는 사항을 정리한 내용이다.</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/t3link-002-h02qfi.html">...</a>
+        <p class="post-item__summary">염창 지역에서 가라오케를 방문하려는 분들을 위해 최신 방문 패턴과 솔직한 이용 분위기를 안내해 드립니다. 염창 가라오케 찐후기를 찾아보는 많은 이들은 단순히 시설의 위치뿐만 아니라 전반적인 분위기,</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <a class="pager__link" href="posts-2.html">2</a>
+      <span class="pager__current">3</span>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>

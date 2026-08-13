@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>글 목록 (2/3) · t3b07-yc-karaoke-real2-2</title>
+  <meta name="description" content="t3b07-yc-karaoke-real2-2에 올라온 글 목록입니다.">
+  <link rel="canonical" href="https://yeomchang-song-room.mapo-room-guide.xyz/posts-2.html">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+ :root {
+ --bg-body: #0a0a0a;
+ --bg-card: #141414;
+ --text-main: #f2f2f7;
+ --text-muted: #86868b;
+ --accent-gold: #d4af37;
+ --accent-gold-hover: #b59026;
+ --border-color: #2c2c2e;
+ 
+ /* Typography */
+ --font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+ --h1-font-size: 3rem;
+ --h2-font-size: 2.25rem;
+ --body-line-height: 1.6;
+ }
+
+ * { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+ body {
+ background-color: var(--bg-body);
+ color: var(--text-main);
+ font-family: var(--font-family-base);
+ line-height: var(--body-line-height);
+ -webkit-font-smoothing: antialiased;
+ overflow-x: hidden;
+ }
+
+ /* Container */
+ .container {
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 0 24px;
+ }
+
+ /* Header / Nav System (Hamburger Pattern) */
+ header {
+ background-color: rgba(10, 10, 10, 0.9);
+ backdrop-filter: blur(20px);
+ position: sticky;
+ top: 0;
+ z-index: 1000;
+ border-bottom: 1px solid var(--border-color);
+ }
+
+ .nav-wrapper {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 80px;
+ }
+
+ /* Hamburger Menu Icon */
+ .hamburger-icon {
+ width: 40px;
+ height: 40px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+ background: none;
+ border: none;
+ }
+
+ .hamburger-lines {
+ display: flex;
+ flex-direction: column;
+ gap: 6px;
+ }
+
+ .line {
+ width: 30px;
+ height: 2px;
+ background-color: var(--text-main);
+ transition: all 0.3s ease;
+ }
+
+ /* Nav Links */
+ nav ul {
+ display: flex;
+ gap: 40px;
+ list-style: none;
+ }
+
+ nav a {
+ text-decoration: none;
+ color: var(--text-main);
+ font-size: 1rem;
+ font-weight: 500;
+ transition: color 0.2s ease;
+ position: relative;
+ }
+
+ nav a:hover, nav a.active {
+ color: var(--accent-gold);
+ }
+
+ /* Hero Section */
+ .hero-section {
+ padding: 120px 0 80px;
+ text-align: center;
+ }
+
+ h1.hero-title {
+ font-size: var(--h1-font-size);
+ line-height: 1.2;
+ margin-bottom: 24px;
+ letter-spacing: -1px;
+ background: linear-gradient(90deg, #fff, var(--accent-gold));
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ }
+
+ .hero-subtitle {
+ color: var(--text-muted);
+ font-size: 1.25rem;
+ max-width: 700px;
+ margin: 0 auto;
+ }
+
+ /* Content Sections */
+ .section-padding {
+ padding: 80px 0;
+ }
+
+ h2.section-title {
+ font-size: var(--h2-font-size);
+ color: var(--accent-gold);
+ margin-bottom: 48px;
+ position: relative;
+ display: inline-block;
+ }
+ 
+ /* Decorative underline for H2 */
+ h2.section-title::after {
+ content: '';
+ position: absolute;
+ bottom: -10px;
+ left: 0;
+ width: 60px;
+ height: 3px;
+ background-color: var(--text-main);
+ }
+
+ .content-block p {
+ margin-bottom: 24px;
+ font-size: 1.1rem;
+ color: #d1d1d6;
+ }
+
+ /* Grid Layouts */
+ .grid-3 {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 24px;
+ margin-top: 48px;
+ }
+
+ /* Cards */
+ .card {
+ background-color: var(--bg-card);
+ border: 1px solid var(--border-color);
+ padding: 32px;
+ border-radius: 16px;
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ </style>
+  <meta property="og:title" content="글 목록 (2/3) · t3b07-yc-karaoke-real2-2">
+  <meta property="og:description" content="t3b07-yc-karaoke-real2-2에 올라온 글 목록입니다.">
+  <meta property="og:url" content="https://yeomchang-song-room.mapo-room-guide.xyz/posts-2.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+</head>
+<body>
+  <div class="container">
+    <header>
+ <div class="container nav-wrapper">
+ <div class="logo">
+ <a href="/" style="color: var(--accent-gold); font-size: 1.5rem; font-weight: bold; text-decoration: none;">브로 리뷰</a>
+ </div>
+ <nav>
+ <ul>
+ <li><a href="#" class="active">블로그</a></li>
+ <li><a href="#">가라오케</a></li>
+ <li><a href="#">이벤트</a></li>
+ <li><a href="#">문의</a></li>
+ </ul>
+ </nav>
+ <button class="hamburger-icon" aria-label="메뉴 열기">
+ <div class="hamburger-lines">
+ <span class="line"></span>
+ <span class="line"></span>
+ <span class="line"></span>
+ </div>
+ </button>
+ </div>
+ </header>
+    <main>
+      <h1>글 목록</h1>
+      <p>전체 46개 · 2/3 페이지</p>
+      <ul class="post-list">
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0278.html">염창 가라오케 찐후기 분석으로 보는 합정 셔츠룸 단골들이 뽑은 핫플 매거진</a>
+        <p class="post-item__summary">많은 분이 염창 가라오케 찐후기 관련 정보를 검색하며 합정 인근의 시설과 비교하곤 합니다. 각 지역의 특징에 따라 선호도가 갈리는데, 본인이 중점을 두는 요소가 가격인지 서비스인지 먼저 결정해야 합</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0279.html">염창 가라오케 찐후기 예약 오류 피하고 정식 셔츠룸 사이트 접속하는 법</a>
+        <p class="post-item__summary">염창 가라오케 찐후기 정보를 찾다가 엉뚱한 경로로 예약을 시도하여 시간을 낭비하는 경우가 많습니다. 특히 검증되지 않은 곳을 통해 예약하려다 보면 불필요한 대기 시간이나 연락 오류를 겪게 됩니다. </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0280.html">염창 가라오케 찐후기 정보 찾을 땐 구글 인덱싱 속도 초고속 광회선 대역폭 최적화 체크</a>
+        <p class="post-item__summary">염창 가라오케 찐후기 게시물에 접근할 때 로딩이 길어지면 정보의 가치가 떨어지기 마련입니다. 웹사이트가 최적화되지 않으면 방문자의 이탈률이 높아지며, 이는 결국 정보 전달력을 저해하는 요소가 됩니다</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260721-0281.html">염창 가라오케 찐후기 구글 신뢰 지수 모발이식 솔루션 분석</a>
+        <p class="post-item__summary">처음 방문했던 공간에서 낯선 시스템을 마주하며 당황했던 기억은 누구나 한 번쯤 있을 법한 경험입니다. 특히 정보의 파편화가 심한 환경 속에서는 신뢰할 만한 지표를 찾는 것이 무엇보다 중요하게 다가옵</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0298.html">염창 가라오케 찐후기 오해 풀고 공덕 가라오케 추천정보 알기</a>
+        <p class="post-item__summary">많은 분이 염창 가라오케 찐후기 내용을 접하며 유흥 시설은 무조건 밤늦은 시간에만 활성화된다고 오해하곤 합니다. 하지만 공덕 지역의 가라오케는 평일 퇴근 직후의 골든타임을 공략하는 것이 훨씬 유리합</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0299.html">염창 가라오케 찐후기 경험으로 알아보는 상수 마사지 추천정보 안내</a>
+        <p class="post-item__summary">염창 가라오케 찐후기 사례를 접하다 보면 즐거운 시간을 보낸 뒤 피로를 푸는 과정이 얼마나 중요한지 알 수 있습니다. 많은 이들이 밀폐된 공간에서의 활동 이후 근육 긴장을 해소하기 위해 적절한 휴식</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0300.html">염창 가라오케 찐후기 비교하며 찾는 망원 노래방 추천정보의 기준</a>
+        <p class="post-item__summary">여러분은 평소 여가 시간을 보낼 때 어떤 기준으로 장소를 결정하시나요. 염창 가라오케 찐후기 내용을 분석해 보면 결국 사람들은 음향 시설과 서비스 품질을 가장 중요하게 생각합니다. 망원 지역에서 노</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0301.html">염창 가라오케 찐후기 활용하여 홍대 노래방 추천정보 선별하기</a>
+        <p class="post-item__summary">홍대 일대에서 즐거운 시간을 보내기 위해 적절한 장소를 선별하는 것은 생각보다 까다로운 과정입니다. 염창 가라오케 찐후기 사례를 통해 얻은 경험을 바탕으로 노래방 선정 시 고려해야 할 단계별 가이드</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0302.html">염창 가라오케 찐후기 기반의 공덕 셔츠룸 추천정보 비교 분석</a>
+        <p class="post-item__summary">많은 분들이 염창 가라오케 찐후기를 찾아보며 동시에 공덕 일대의 유흥 문화를 고민하곤 합니다. 오늘은 단순히 가라오케를 방문하는 것과 새롭게 떠오르는 셔츠룸 문화가 어떻게 다른지 그 핵심을 짚어보려</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0303.html">염창 가라오케 찐후기 사례로 보는 실패 없는 연남 유흥 추천정보</a>
+        <p class="post-item__summary">염창 가라오케 찐후기를 살피며 즐거운 시간을 계획하는 이들이 많지만, 막상 현장에서 낭패를 보는 경우도 적지 않습니다. 연남 일대에서 유흥을 즐길 때 실패하는 가장 큰 이유는 매장의 특성을 제대로 </p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0304.html">염창 가라오케 찐후기 참고 마곡 가라오케 추천정보 체크리스트</a>
+        <p class="post-item__summary">염창 가라오케 찐후기를 찾아보며 인근 지역의 새로운 유흥 문화를 모색하는 분들을 위해 마곡지구의 정보를 정리했습니다. 마곡은 최신 시설을 갖춘 가라오케가 많지만, 무엇보다 중요한 것은 방문 시의 위</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0305.html">염창 가라오케 찐후기 확인하고 마곡 유흥 추천정보 알아보기</a>
+        <p class="post-item__summary">낯선 지역에서 모임 장소를 정하다 보면 예상치 못한 난관에 부딪히기 마련입니다. 특히 염창 가라오케 찐후기 등을 꼼꼼히 살피며 방문을 계획하는 분들이 많아지는 추세인데, 처음 방문하는 곳은 항상 변</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0306.html">염창 가라오케 찐후기 분석으로 보는 합정 노래방 추천정보 가이드</a>
+        <p class="post-item__summary">모든 유흥 시설은 가격이 높을수록 시설이 무조건 좋다는 생각은 편견에 불과합니다. 염창 가라오케 찐후기 내용을 읽어봐도 알 수 있듯이, 실제로 운영되는 서비스의 본질은 시설의 규모보다 관리자의 철학</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0307.html">염창 가라오케 찐후기 경험자가 말하는 연남 클럽 추천정보 정리</a>
+        <p class="post-item__summary">좋은 분위기의 장소를 찾기 위해서는 음악의 장르, 접근성, 그리고 방문 인원 구성이라는 세 가지 필수 조건이 충족되어야 합니다. 염창 가라오케 찐후기 사례들을 보아도 알 수 있듯이, 본인이 선호하는</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/gemini-coverage-20260722-0308.html">염창 가라오케 찐후기 확인하고 고르는 합정 셔츠룸 추천정보</a>
+        <p class="post-item__summary">바쁜 일상 속에서 즐거운 시간을 보내기 위해 합리적인 장소를 찾고 계신가요? 염창 가라오케 찐후기 데이터를 살펴보며 지역 내 유흥 문화를 비교하는 분들이 많습니다. 하지만 단순히 블로그의 화려한 글</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-001-1da6un5.html">300 만 원 오가는 그 작은 로고, 왜 염창 가라오케보다 더 신경 써야 하는지</a>
+        <p class="post-item__summary">Asics,Gel,Kayano 14,Ivory Colorway,2023 Restock,Inner Sole Logo,SnkAuth,Reseller,PBN Blog,Limited Detail,Sneak</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-001-1x37uju.html">염창 가라오케에서 부르지 않았던 슬라이드 7의 음압</a>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/interview-001-b3purc.html">2023 홍대 상권, 사장 몰래 계산한 폐업의 진실과 살길</a>
+        <p class="post-item__summary">&quot;주말에 갈 거 있는데, 혹시 2층에서 봤던 음주가게는 괜찮은가 봐요?&quot;내가 묻자 옆집 동기는 머리를 저며 대답했다. &quot;지난 주에 갑자기 폐업했대. 물가만 올랐을 뿐인데.&quot;나는 카운터 뒤에 쌓인 잔</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-002-1k1al2t.html">형님이 알려주는 블레이드 러너 컷 삭제의 진실, 그 선택은 염창 가라오케 예약만큼 중요해</a>
+        <p class="post-item__summary">Blade Runner(1.3), Unicorn(1.2), 1982, Ridley Scott, Neon, Rain, Futuristic City, Rick Deckard, Sci-Fi Film, N</p>
+      </li>
+      <li class="post-item">
+        <a class="post-item__link" href="posts/review-003-1jf2op9.html">염창 가라오케, 처음 들으면 헷갈리는 용어 정리</a>
+        <p class="post-item__summary">염창에서 가라오케를 처음 이용하려는 경우, 안내 과정에서 사용하는 표현이 낯설게 느껴질 수 있다. 이 페이지에서는 자주 등장하는 용어와 이용 절차를 함께 정리했다.</p>
+      </li>
+      </ul>
+    <nav class="pager">
+      <a class="pager__link" href="posts.html">1</a>
+      <span class="pager__current">2</span>
+      <a class="pager__link" href="posts-3.html">3</a>
+    </nav>
+    </main>
+  </div>
+</body>
+</html>
